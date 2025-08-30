@@ -7,6 +7,6 @@ app.use(express.json());
 
 const Product_Routes = require("./src/Product_Routes");
 
-app.use("/", Product_Routes);
+app.use("/api", Product_Routes);
 
 module.exports = app;
